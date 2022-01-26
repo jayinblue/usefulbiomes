@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "usefulbiomes:amethyst_dust"
+  },
+  "result": "usefulbiomes:raw_amethyst",
+  "experience": 0.7,
+  "cookingtime": 100
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "usefulbiomes:raw_amethyst_ingot"
+  },
+  "addition": {
+    "item": "minecraft:diamond"
+  },
+  "result": {
+    "item": "usefulbiomes:amethyst_ingot"
+  }
+}

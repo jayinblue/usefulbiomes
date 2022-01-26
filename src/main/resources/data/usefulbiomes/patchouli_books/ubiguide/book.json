@@ -1,0 +1,9 @@
+{
+  "name": {
+    "translate": "ubiguide.usefulbiomes.name"
+  },
+  "landing_text": {
+    "translate": "ubiguide.usefulbiomes.landing_text"
+  },
+  "version": 1
+}

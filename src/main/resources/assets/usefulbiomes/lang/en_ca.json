@@ -1,7 +1,15 @@
 {
-  "itemGroup.usefulbiomes.ubi": "UsefulBiomes Mod",
+  "itemGroup.usefulbiomes.ubi_logo": "UsefulBiomes Mod",
+
+  "ubiguide.usefulbiomes.name": "UsefulBiomes Guide",
+  "ubiguide.usefulbiomes.landing_text": "LANDING TEXT",
 
   "item.usefulbiomes.amethyst_dust": "Amethyst Dust",
+  "item.usefulbiomes.raw_amethyst": "Raw Amethyst",
+  "item.usefulbiomes.raw_amethyst_ingot": "Raw Amethyst Ingot",
+  "item.usefulbiomes.amethyst_ingot": "Amethyst Ingot",
+  "item.usefulbiomes.ubi_logo": "UBI Logo",
 
-  "block.usefulbiomes.amethyst_ore": "Amethyst Ore"
+  "block.usefulbiomes.amethyst_ore": "Amethyst Ore",
+  "block.usefulbiomes.raw_amethyst_block": "Block of Raw Amethyst"
 }

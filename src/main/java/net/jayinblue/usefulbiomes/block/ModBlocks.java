@@ -15,8 +15,12 @@ import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
 
+    //amethyst blocks
     public static final Block AMETHYST_ORE = registerBlock("amethyst_ore",
             new Block(FabricBlockSettings.of(Material.AMETHYST).breakByHand(false).sounds(BlockSoundGroup.AMETHYST_BLOCK).strength(3, 3).requiresTool()));
+
+    public static final Block RAW_AMETHYST_BLOCK = registerBlock("raw_amethyst_block",
+            new Block(FabricBlockSettings.of(Material.AMETHYST).breakByHand(false).sounds(BlockSoundGroup.AMETHYST_BLOCK).strength(4, 5).requiresTool()));
 
     //registry things againnnnnnnnnnnnnnn
     private static Block registerBlock(String name, Block block) {

@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "usefulbiomes:amethyst_ore",
     "usefulbiomes:raw_amethyst_block"
   ]
 }
