@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "usefulbiomes",
+  "version": "${version}",
+
+  "name": "UsefulBiomes",
+  "description": "a mod that adds biomes and blocks based on existing Minecraft blocks. sister mod to UsefulBlocks!",
+  "authors": [
+    "jayinblue (Bluejay!!)"
+  ],
+  "contact": {
+  },
+
+  "license": "GNU GPL v3",
+  "icon": "assets/usefulbiomes/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.jayinblue.usefulbiomes.UsefulBiomes"
+    ]
+  },
+  "mixins": [
+    "usefulbiomes.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
