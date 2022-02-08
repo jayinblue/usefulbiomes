@@ -1,9 +1,6 @@
 {
-  "name": {
-    "translate": "ubiguide.usefulbiomes.name"
-  },
-  "landing_text": {
-    "translate": "ubiguide.usefulbiomes.landing_text"
-  },
-  "version": 1
+  "name": "ubiguide.usefulbiomes.name",
+  "landing_text": "ubiguide.usefulbiomes.landing_text",
+  "version": 1,
+  "creative_tab": "usefulbiomes.ubi_logo"
 }
