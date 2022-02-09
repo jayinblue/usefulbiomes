@@ -5,10 +5,10 @@ import net.jayinblue.usefulbiomes.UsefulBiomes;
 import net.jayinblue.usefulbiomes.item.custom.ModAxeItem;
 import net.jayinblue.usefulbiomes.item.custom.ModHoeItem;
 import net.jayinblue.usefulbiomes.item.custom.ModPickaxeItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ShovelItem;
-import net.minecraft.item.SwordItem;
+import net.jayinblue.usefulbiomes.item.custom.ShinyStewItem;
+import net.minecraft.entity.effect.StatusEffectInstance;
+import net.minecraft.entity.effect.StatusEffects;
+import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -40,7 +40,7 @@ public class ModItems {
             new ModPickaxeItem(ModToolMaterial.AMETHYST_REINFORCED_DIAMOND, 1, -2.8f,
                     new FabricItemSettings().group(ModItemGroup.UBI)));
 
-    public static final Item AAMETHYST_REINFORCED_DIAMOND_SHOVEL = registerItem("amethyst_reinforced_diamond_shovel",
+    public static final Item AMETHYST_REINFORCED_DIAMOND_SHOVEL = registerItem("amethyst_reinforced_diamond_shovel",
             new ShovelItem(ModToolMaterial.AMETHYST_REINFORCED_DIAMOND, 2f, -3.0f,
                     new FabricItemSettings().group(ModItemGroup.UBI)));
 
@@ -61,7 +61,7 @@ public class ModItems {
             new ModPickaxeItem(ModToolMaterial.AMETHYST_REINFORCED_NETHERITE, 1, -2.8f,
                     new FabricItemSettings().group(ModItemGroup.UBI)));
 
-    public static final Item AAMETHYST_REINFORCED_NETHERITE_SHOVEL = registerItem("amethyst_reinforced_netherite_shovel",
+    public static final Item AMETHYST_REINFORCED_NETHERITE_SHOVEL = registerItem("amethyst_reinforced_netherite_shovel",
             new ShovelItem(ModToolMaterial.AMETHYST_REINFORCED_NETHERITE, 2f, -3.0f,
                     new FabricItemSettings().group(ModItemGroup.UBI)));
 
@@ -70,9 +70,17 @@ public class ModItems {
                     new FabricItemSettings().group(ModItemGroup.UBI)));
 
     //food
-    //once i figure out how minecraft does suspicious stew ill code shiny stew, but for now i have no idea how it works
+    public static final Item SHINY_STEW = registerItem("shiny_stew", new ShinyStewItem(new FabricItemSettings()
+                    .food(new FoodComponent.Builder().hunger(7).saturationModifier(1.0f).alwaysEdible()
+                            .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 500, 1), 1.0f)
+                            .statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 260, 1), 1.0f).build())
+                    .group(ModItemGroup.UBI)));
+
+    /*public static final ShinyStewItem SHINY_STEW = registerItem("shiny_stew"),
+            new ShinyStewItem(new FabricItemSettings().maxCount(1).group(ModItemGroup.UBI));*/
+
     /*public static final Item SHINY_STEW = registerItem("shiny_stew",
-            new Item(new FabricItemSettings().group(ModItemGroup.UBI)));*/
+            new ShinyStewItem(new FabricItemSettings().maxCount(1).group(ModItemGroup.UBI)));*/
 
     //other
     public static final Item UBI_LOGO = registerItem("ubi_logo",

@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "usefulbiomes:item/amethyst_reinforced_netherite_pickaxe"
+  }
+}

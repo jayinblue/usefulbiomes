@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BR ",
+    "OA ",
+    "   "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bowl"
+    },
+    "R": {
+      "item": "minecraft:red_mushroom"
+    },
+    "O": {
+      "item": "minecraft:brown_mushroom"
+    },
+    "A": {
+      "item": "usefulbiomes:amethyst_dust"
+    }
+  },
+  "result": {
+    "item": "usefulbiomes:shiny_stew"
+  }
+}
