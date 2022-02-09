@@ -16,3 +16,6 @@ I *might* update this mod to older versions, but it's unlikely that I'll update 
 
 # Forge
 Nope! If you *really* want to port my mod to Forge, go ahead! It would be nice to ask me prior, but the nature of the license I've put my mod under doesn't require explicit permission. If you want to port my mod at all, you also must license your mod under the GNU GPL license, as it's a copyleft license. A license is included in my mod files, please read it for more information. 
+
+# Issues and github things
+This is my 3rd project on GitHub, so I have no idea how this site works. I just click the big "commit and push" button and carry on with my day! But seriously, if you have an issue, submit it through github and I'll attempt to figure it out
