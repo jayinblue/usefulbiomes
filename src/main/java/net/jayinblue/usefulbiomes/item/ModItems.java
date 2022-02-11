@@ -6,6 +6,7 @@ import net.jayinblue.usefulbiomes.item.custom.ModAxeItem;
 import net.jayinblue.usefulbiomes.item.custom.ModHoeItem;
 import net.jayinblue.usefulbiomes.item.custom.ModPickaxeItem;
 import net.jayinblue.usefulbiomes.item.custom.ShinyStewItem;
+import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.*;
@@ -81,6 +82,41 @@ public class ModItems {
 
     /*public static final Item SHINY_STEW = registerItem("shiny_stew",
             new ShinyStewItem(new FabricItemSettings().maxCount(1).group(ModItemGroup.UBI)));*/
+
+    //diamond armour
+    public static final Item AMETHYST_REINFORCED_DIAMOND_HELMET = registerItem("amethyst_reinforced_diamond_helmet",
+            new ArmorItem(ModArmourMaterial.AMETHYST_REINFORCED_DIAMOND, EquipmentSlot.HEAD,
+                    new FabricItemSettings().group(ModItemGroup.UBI)));
+
+    public static final Item AMETHYST_REINFORCED_DIAMOND_CHESTPLATE = registerItem("amethyst_reinforced_diamond_chestplate",
+            new ArmorItem(ModArmourMaterial.AMETHYST_REINFORCED_DIAMOND, EquipmentSlot.CHEST,
+                    new FabricItemSettings().group(ModItemGroup.UBI)));
+
+    public static final Item AMETHYST_REINFORCED_DIAMOND_LEGGINGS = registerItem("amethyst_reinforced_diamond_leggings",
+            new ArmorItem(ModArmourMaterial.AMETHYST_REINFORCED_DIAMOND, EquipmentSlot.LEGS,
+                    new FabricItemSettings().group(ModItemGroup.UBI)));
+
+    public static final Item AMETHYST_REINFORCED_DIAMOND_BOOTS = registerItem("amethyst_reinforced_diamond_boots",
+            new ArmorItem(ModArmourMaterial.AMETHYST_REINFORCED_DIAMOND, EquipmentSlot.FEET,
+                    new FabricItemSettings().group(ModItemGroup.UBI)));
+
+    //netherite armour
+    public static final Item AMETHYST_REINFORCED_NETHERITE_HELMET = registerItem("amethyst_reinforced_netherite_helmet",
+            new ArmorItem(ModArmourMaterial.AMETHYST_REINFORCED_NETHERITE, EquipmentSlot.HEAD,
+                    new FabricItemSettings().group(ModItemGroup.UBI)));
+
+    public static final Item AMETHYST_REINFORCED_NETHERITE_CHESTPLATE = registerItem("amethyst_reinforced_netherite_chestplate",
+            new ArmorItem(ModArmourMaterial.AMETHYST_REINFORCED_NETHERITE, EquipmentSlot.CHEST,
+                    new FabricItemSettings().group(ModItemGroup.UBI)));
+
+    public static final Item AMETHYST_REINFORCED_NETHERITE_LEGGINGS = registerItem("amethyst_reinforced_netherite_leggings",
+            new ArmorItem(ModArmourMaterial.AMETHYST_REINFORCED_NETHERITE, EquipmentSlot.LEGS,
+                    new FabricItemSettings().group(ModItemGroup.UBI)));
+
+    public static final Item AMETHYST_REINFORCED_NETHERITE_BOOTS = registerItem("amethyst_reinforced_netherite_boots",
+            new ArmorItem(ModArmourMaterial.AMETHYST_REINFORCED_NETHERITE, EquipmentSlot.FEET,
+                    new FabricItemSettings().group(ModItemGroup.UBI)));
+
 
     //other
     public static final Item UBI_LOGO = registerItem("ubi_logo",

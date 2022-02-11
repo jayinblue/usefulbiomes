@@ -10,6 +10,22 @@
   "item.usefulbiomes.amethyst_ingot": "Amethyst Ingot",
   "item.usefulbiomes.ubi_logo": "UBI Logo",
 
+  "item.usefulbiomes.amethyst_reinforced_diamond_sword": "Amethyst Reinforced Diamond Sword",
+  "item.usefulbiomes.amethyst_reinforced_diamond_axe": "Amethyst Reinforced Diamond Axe",
+  "item.usefulbiomes.amethyst_reinforced_diamond_pickaxe": "Amethyst Reinforced Diamond Pickaxe",
+  "item.usefulbiomes.amethyst_reinforced_diamond_shovel": "Amethyst Reinforced Diamond Shovel",
+  "item.usefulbiomes.amethyst_reinforced_diamond_hoe": "Amethyst Reinforced Diamond Hoe",
+
+  "item.usefulbiomes.amethyst_reinforced_netherite_sword": "Amethyst Reinforced Netherite Sword",
+  "item.usefulbiomes.amethyst_reinforced_netherite_axe": "Amethyst Reinforced Netherite Axe",
+  "item.usefulbiomes.amethyst_reinforced_netherite_pickaxe": "Amethyst Reinforced Netherite Pickaxe",
+  "item.usefulbiomes.amethyst_reinforced_netherite_shovel": "Amethyst Reinforced Netherite Shovel",
+  "item.usefulbiomes.amethyst_reinforced_netherite_hoe": "Amethyst Reinforced Netherite Hoe",
+
+  "item.usefulbiomes.shiny_stew": "Shiny Stew",
+  "tooltip.usefulbiomes.shiny_stew_shift": "§o§5It shimmers in your hands... Is it even edible?",
+  "tooltip.usefulbiomes.shiny_stew": "Hold §eSHIFT§r for more info",
+
   "block.usefulbiomes.amethyst_ore": "Amethyst Ore",
   "block.usefulbiomes.raw_amethyst_block": "Block of Raw Amethyst"
 }
