@@ -22,3 +22,10 @@ If you want to port my mod to older versions, different mod loaders, etc. Just a
 
 # Issues and github things
 This is my 3rd project on GitHub, so I have no idea how this site works. I just click the big "commit and push" button and carry on with my day! But seriously, if you have an issue, submit it through github and I'll attempt to figure it out 
+
+# License
+UsefulBiomes is a free mod: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+UsefulBiomes is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with UsefulBiomes. If not, see <https://www.gnu.org/licenses/>. 
