@@ -1,14 +1,17 @@
 {
   "itemGroup.usefulbiomes.ubi_logo": "UsefulBiomes Mod",
 
+
   "ubiguide.usefulbiomes.name": "UsefulBiomes Guide",
   "ubiguide.usefulbiomes.landing_text": "LANDING TEXT",
+
 
   "item.usefulbiomes.amethyst_dust": "Amethyst Dust",
   "item.usefulbiomes.raw_amethyst": "Raw Amethyst",
   "item.usefulbiomes.raw_amethyst_ingot": "Raw Amethyst Ingot",
   "item.usefulbiomes.amethyst_ingot": "Amethyst Ingot",
   "item.usefulbiomes.ubi_logo": "UBI Logo",
+
 
   "item.usefulbiomes.amethyst_reinforced_diamond_sword": "Amethyst Reinforced Diamond Sword",
   "item.usefulbiomes.amethyst_reinforced_diamond_axe": "Amethyst Reinforced Diamond Axe",
@@ -22,10 +25,23 @@
   "item.usefulbiomes.amethyst_reinforced_netherite_shovel": "Amethyst Reinforced Netherite Shovel",
   "item.usefulbiomes.amethyst_reinforced_netherite_hoe": "Amethyst Reinforced Netherite Hoe",
 
+
   "item.usefulbiomes.shiny_stew": "Shiny Stew",
   "tooltip.usefulbiomes.shiny_stew_shift": "§o§5It shimmers in your hands... Is it even edible?",
   "tooltip.usefulbiomes.shiny_stew": "Hold §eSHIFT§r for more info",
 
+
   "block.usefulbiomes.amethyst_ore": "Amethyst Ore",
-  "block.usefulbiomes.raw_amethyst_block": "Block of Raw Amethyst"
+  "block.usefulbiomes.raw_amethyst_block": "Block of Raw Amethyst",
+
+
+  "item.usefulbiomes.amethyst_reinforced_diamond_helmet": "Amethyst Reinforced Diamond Helmet",
+  "item.usefulbiomes.amethyst_reinforced_diamond_chestplate": "Amethyst Reinforced Diamond Chestplate",
+  "item.usefulbiomes.amethyst_reinforced_diamond_leggings": "Amethyst Reinforced Diamond Leggings",
+  "item.usefulbiomes.amethyst_reinforced_diamond_boots": "Amethyst Reinforced Diamond Boots",
+
+  "item.usefulbiomes.amethyst_reinforced_netherite_helmet": "Amethyst Reinforced Netherite Helmet",
+  "item.usefulbiomes.amethyst_reinforced_netherite_chestplate": "Amethyst Reinforced Netherite Chestplate",
+  "item.usefulbiomes.amethyst_reinforced_netherite_leggings": "Amethyst Reinforced Netherite Leggings",
+  "item.usefulbiomes.amethyst_reinforced_netherite_boots": "Amethyst Reinforced Netherite Boots"
 }

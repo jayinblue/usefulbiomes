@@ -2,10 +2,7 @@ package net.jayinblue.usefulbiomes.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.jayinblue.usefulbiomes.UsefulBiomes;
-import net.jayinblue.usefulbiomes.item.custom.ModAxeItem;
-import net.jayinblue.usefulbiomes.item.custom.ModHoeItem;
-import net.jayinblue.usefulbiomes.item.custom.ModPickaxeItem;
-import net.jayinblue.usefulbiomes.item.custom.ShinyStewItem;
+import net.jayinblue.usefulbiomes.item.custom.*;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
@@ -85,7 +82,7 @@ public class ModItems {
 
     //diamond armour
     public static final Item AMETHYST_REINFORCED_DIAMOND_HELMET = registerItem("amethyst_reinforced_diamond_helmet",
-            new ArmorItem(ModArmourMaterial.AMETHYST_REINFORCED_DIAMOND, EquipmentSlot.HEAD,
+            new ModArmourItem(ModArmourMaterial.AMETHYST_REINFORCED_DIAMOND, EquipmentSlot.HEAD,
                     new FabricItemSettings().group(ModItemGroup.UBI)));
 
     public static final Item AMETHYST_REINFORCED_DIAMOND_CHESTPLATE = registerItem("amethyst_reinforced_diamond_chestplate",
@@ -102,7 +99,7 @@ public class ModItems {
 
     //netherite armour
     public static final Item AMETHYST_REINFORCED_NETHERITE_HELMET = registerItem("amethyst_reinforced_netherite_helmet",
-            new ArmorItem(ModArmourMaterial.AMETHYST_REINFORCED_NETHERITE, EquipmentSlot.HEAD,
+            new ModArmourItem(ModArmourMaterial.AMETHYST_REINFORCED_NETHERITE, EquipmentSlot.HEAD,
                     new FabricItemSettings().group(ModItemGroup.UBI)));
 
     public static final Item AMETHYST_REINFORCED_NETHERITE_CHESTPLATE = registerItem("amethyst_reinforced_netherite_chestplate",
